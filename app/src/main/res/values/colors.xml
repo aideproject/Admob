@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Palette -->
+    <color name="brand_primary">#059669</color>
+    <color name="brand_on_primary">#FFFFFF</color>
+    <color name="brand_primary_container">#D1FAE5</color>
+    <color name="brand_on_primary_container">#064E3B</color>
+
+    <color name="brand_secondary">#4F46E5</color>
+    <color name="brand_on_secondary">#FFFFFF</color>
+    <color name="brand_secondary_container">#E0E7FF</color>
+    <color name="brand_on_secondary_container">#312E81</color>
+
+    <color name="brand_tertiary">#D97706</color>
+    <color name="brand_on_tertiary">#FFFFFF</color>
+    <color name="brand_tertiary_container">#FEF3C7</color>
+    <color name="brand_on_tertiary_container">#78350F</color>
+
+    <!-- Surfaces & Neutrals (Light) -->
+    <color name="surface_background">#F4F6FA</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_card_elevated">#F8FAFC</color>
+    <color name="surface_header">#0F172A</color>
+    <color name="surface_banner_bar">#EEF2F6</color>
+    <color name="outline_subtle">#E2E8F0</color>
+    <color name="outline_ad_border">#CBD5E1</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#475569</color>
+    <color name="text_muted">#64748B</color>
+    <color name="text_on_dark">#F8FAFC</color>
+    <color name="text_on_dark_muted">#94A3B8</color>
+
+    <!-- Semantic Status -->
+    <color name="status_ready_bg">#DCFCE7</color>
+    <color name="status_ready_text">#166534</color>
+    <color name="status_wait_bg">#FEF3C7</color>
+    <color name="status_wait_text">#92400E</color>
+    <color name="status_off_bg">#FEE2E2</color>
+    <color name="status_off_text">#991B1B</color>
+
+    <!-- Ad Attribution Badge (High Contrast per AdMob Policy) -->
+    <color name="ad_badge_bg">#F59E0B</color>
+    <color name="ad_badge_text">#0F172A</color>
+</resources>

@@ -1,0 +1,6 @@
+{
+  "name": "AdMob Helper",
+  "description": "Policy-compliant Google AdMob integration kit in Java and XML featuring a single-line AdHelper API for Banner, Interstitial, Rewarded, Rewarded Interstitial, Native, App Open ads, and UMP GDPR consent.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

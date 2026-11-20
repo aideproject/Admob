@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AdMob Helper</string>
+    <string name="header_subtitle">Policy-Safe One-Line AdMob Kit (Java &amp; XML)</string>
+    <string name="badge_test_mode">TEST IDS ACTIVE</string>
+    <string name="badge_live_mode">PRODUCTION MODE</string>
+    <string name="label_coins_format">%d Coins</string>
+    <string name="label_remove_ads_mode">Simulate Premium (Remove All Ads)</string>
+
+    <!-- Status Dashboard -->
+    <string name="section_status_title">Live Policy &amp; Preload Status</string>
+    <string name="label_sdk_status">SDK &amp; Consent</string>
+    <string name="label_cooldown_status">Interstitial Cooldown</string>
+    <string name="status_initializing">Initializing…</string>
+    <string name="status_ready">Ready</string>
+    <string name="status_loading">Loading…</string>
+    <string name="status_disabled">Disabled</string>
+    <string name="status_cooldown_ready">Ready now</string>
+    <string name="status_cooldown_wait">%ds left</string>
+
+    <!-- One-Line Ad Triggers -->
+    <string name="section_triggers_title">One-Line Ad Triggers</string>
+    <string name="btn_interstitial_title">Interstitial Ad (Safe Transition)</string>
+    <string name="btn_interstitial_code">AdHelper.showInterstitial(this, () -&gt; openNextScreen());</string>
+    <string name="btn_rewarded_title">Rewarded Ad (+50 Coins)</string>
+    <string name="btn_rewarded_code">AdHelper.showRewarded(this, amount -&gt; addCoins(amount));</string>
+    <string name="btn_rewarded_interstitial_title">Rewarded Interstitial (+25 Coins)</string>
+    <string name="btn_rewarded_interstitial_code">AdHelper.showRewardedInterstitial(this, amount -&gt; addCoins(amount));</string>
+    <string name="btn_app_open_title">App Open Ad (Foreground Resume)</string>
+    <string name="btn_app_open_code">AdHelper.showAppOpen(this);</string>
+    <string name="btn_native_reload_title">Reload Native Ad</string>
+    <string name="btn_native_reload_code">AdHelper.showNativeAd(this, nativeAdContainer);</string>
+    <string name="btn_privacy_title">GDPR / UMP Privacy Options</string>
+    <string name="btn_privacy_code">AdHelper.showPrivacyOptions(this);</string>
+
+    <!-- Native Ad -->
+    <string name="section_native_title">Native Advanced Ad (Policy-Safe Layout)</string>
+    <string name="native_loading_placeholder">Loading Native Ad…</string>
+    <string name="native_ads_removed_placeholder">Native Ad hidden (Premium Mode active)</string>
+    <string name="ad_attribution_badge">Ad</string>
+    <string name="ad_default_cta">Learn More</string>
+
+    <!-- Policy Safeguards -->
+    <string name="section_policy_title">Built-in AdMob Policy Safeguards</string>
+    <string name="policy_checklist_body">• UMP GDPR Consent checked before MobileAds init\n• Auto Test Ad Unit IDs in DEBUG builds (no invalid traffic)\n• 45s Interstitial cooldown + never blocks navigation\n• App Open 4-hour expiry check + no fullscreen overlap\n• Large Anchored Adaptive Banner with safe spacing &amp; insets\n• Automatic lifecycle cleanup (pause / resume / destroy)\n• Native Ad with clear \"Ad\" badge &amp; contrasting border\n• Retry backoff limit (max 3) to prevent server spam</string>
+
+    <!-- Event Log -->
+    <string name="section_log_title">Live AdHelper Event Log</string>
+    <string name="btn_clear_log">Clear</string>
+    <string name="log_initial">Waiting for UMP consent and MobileAds SDK…</string>
+
+    <!-- Banner -->
+    <string name="banner_caption">Advertisement</string>
+
+    <!-- Second Screen -->
+    <string name="second_screen_title">Second Screen</string>
+    <string name="second_screen_heading">Natural Transition Complete</string>
+    <string name="second_screen_body">You arrived here via AdHelper.showInterstitial(this, runnable). Notice how the transition works seamlessly whether the interstitial was shown, on cooldown, or unavailable—and pressing Back never triggers a surprise ad (AdMob Policy Best Practice).</string>
+    <string name="btn_go_back">Return to MainActivity</string>
+
+    <!-- Toast / Messages -->
+    <string name="msg_reward_earned">Reward earned: +%d Coins</string>
+    <string name="msg_ad_not_ready">Ad is loading in the background. Please try again shortly.</string>
+    <string name="msg_ads_disabled">Ads are disabled in Premium Mode.</string>
+    <string name="msg_privacy_not_required">Privacy options form is only required in EEA/UK/applicable regions.</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_policy_shield">Policy shield icon</string>
+    <string name="cd_back_button">Navigate back</string>
+    <string name="cd_ad_app_icon">Advertiser app icon</string>
+</resources>
